@@ -8,12 +8,12 @@ import './App.css';
 import NavBar from './components/NavBar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import Home from "./pages/homepage"
-import About from "./pages/about"
-import DevTesting from "./pages/devTesting"
+import Home from "./pages/homepage";
+import About from "./pages/about";
+import DevTesting from "./pages/devTesting";
 import Contact from './pages/contact';
+import Partnerships from './pages/partnerships';
 import Projects from './pages/projects';
-
 
 
 
@@ -28,6 +28,7 @@ function App() {
                 <Route path="/about" element={<About />} />
                 <Route path="/testing" element={<DevTesting />} />
                 <Route path='/contact' element ={<Contact/>}/>
+                <Route path='/partnerships' element = {<Partnerships/>}/>
                 <Route path='/projects' element = {<Projects/>}/>
             </Routes>
         </Router>
