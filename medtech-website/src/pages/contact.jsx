@@ -53,7 +53,7 @@ export default function Contact() {
                             />
                         </a>
                         <a
-                            href="https://www.linkedin.com/in/yourprofile"
+                            href="https://www.linkedin.com/company/medtech-uci/"
                             target="_blank"
                             rel="noopener noreferrer"
                             aria-label="LinkedIn"
@@ -65,10 +65,10 @@ export default function Contact() {
                             />
                         </a>
                         <a
-                            href="https://discord.com/"
+                            href="https://discord.gg/5w6uBzW4mm"
                             target="_blank"
                             rel="noopener noreferrer"
-                            aria-label="Discord"
+                            aria-label="Discord" 
                         >
                             <img
                                 src={`${process.env.PUBLIC_URL}/discordLogo.png`}

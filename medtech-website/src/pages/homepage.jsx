@@ -109,7 +109,7 @@ function SwitchItUpDescription(){
                 Players are challenged with a series of simple cognitive tasks, such as color matching,
                 shape sorting, and animal counting.
             </p>
-            <Link><p className={"text-left text-3xl text-sky-400 my-4 hover:text-sky-200"}>Learn More</p></Link>
+            <Link to="/projects"><p className={"text-left text-3xl text-sky-400 my-4 hover:text-sky-200"}>Learn More</p></Link>
         </div>
     )
 }
@@ -122,35 +122,11 @@ function SwitchItUpImageMockUp(){
     )
 }
 
-function LinkToGameButton(){
-    const navigate = useNavigate();
-
-    return (
-        <DesignedButton
-            onClick={() => navigate("/game")}
-            className={`text-white hover:text-sky-800 bg-sky-400
-                    my-8 px-10 py-3 inline-block text-center shadow-lg
-                    font-semibold text-2xl transition duration-300 ease-in-out transform hover:scale-105`}
-            content="Game"
-        />
-        
-    )
-}
-
 function ClubLogoAndName(){
     return (
-    <div className={"flex items-center"}>
-        <Link to="/">
-                    <img
-                    src={`${process.env.PUBLIC_URL}/org_logo2.png`}
-                    alt="Logo"
-                    width={35}
-                    height={35}
-                    className="cursor-pointer mx-4"
-                    />
-        </Link>
-        <h1 className={"font-bold text-4xl text-black my-8"}>
-            MedTech @ UCI</h1>
+    <div className={"flex items-center my-8"}>
+        <h1 className={"font-bold text-4xl text-black"}>
+            {' '}MedTech @ UCI</h1>
     </div>
     ) 
     
@@ -165,8 +141,6 @@ function IntroductoryContent(){
                 Empowering Lives Through Compassionate<br/>
                 Medical Apps. Dedicated to enhancing<br/>
                 cognitive well-being and patient care.</h1>
-
-            <LinkToGameButton />
         </div>
     )
 }
