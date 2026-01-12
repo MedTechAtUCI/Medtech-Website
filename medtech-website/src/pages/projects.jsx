@@ -1,58 +1,44 @@
-function StarkLabsDescription() {
-    return (
-        <div className="flex flex-col items-center text-center h-screen my-16 justify-center px-8 bg-white">
-            <h1 className="text-4xl font-bold mb-6">Stark Lab</h1>
-            <p className="max-w-3xl text-lg leading-relaxed">
-                Our project, Gamification of the Mnemonic Similarity Task (MST), aims to revolutionize early detection of Alzheimer’s disease by transforming a traditional laboratory memory test into an engaging digital game. The MST assesses how well individuals can distinguish between similar images—a function tied to the hippocampus, one of the first brain regions affected by Alzheimer’s. By integrating game design elements such as rewards, animations, adaptive difficulty, and a virtual guide, we seek to make the task more enjoyable and improve attention and consistency. This gamified version also collects richer behavioral data, including reaction times and gaze patterns, which will be analyzed using machine learning to identify subtle cognitive changes linked to early Alzheimer’s risk. Ultimately, our goal is to create a scalable, accessible, and scientifically rigorous digital tool that allows for engaging at-home monitoring of brain health and more reliable early detection of cognitive decline.
-            </p>
-        </div>
-    );
-}
-
-function SimonLabsDescription() {
+function SwitchItUp() {
     return (
         <div className="flex flex-col items-center text-center h-screen my-16 justify-center px-8 bg-sky-950">
-            <h1 className="text-4xl text-white font-bold">Simon Lab</h1>
+            <h1 className="text-4xl text-white font-bold">SwitchItUp</h1>
             <p className="max-w-3xl text-lg text-white leading-relaxed mt-6">
-                We are currently collaborating with the Simon Lab, a research group within the UCI School of Medicine led by Dr. Katherine Simon, a professor specializing in pediatric cognition, memory, and sleep. The Simon Lab focuses on understanding how memory develops in children and how sleep patterns influence learning and long-term recall.
-                <br /><br />
-                As part of our ongoing partnership, we are helping the lab develop a new memory-assessment feature for their app, HowRU. This feature presents children with pairs of images, where one image in the pair changes over time. Participants are asked to identify the differences, allowing researchers to measure attention, memory encoding, and recall in a natural, engaging way.
-                <br /><br />
-                Through this collaboration, we aim to support the Simon Lab’s mission to advance pediatric memory research and create tools that deepen our understanding of how children learn, adapt, and grow.
+                An engaging game designed to enhance mental flexibility through rapidly changing rules.
+                Players are challenged with a series of simple cognitive tasks, such as color matching,
+                shape sorting, and animal counting.
             </p>
         </div>
     );
 }
 
-function OctopathDescription() {
+function Alois() {
     return (
         <div className="flex flex-col items-center text-center h-screen my-16 justify-center px-8 bg-white">
-            <h1 className="text-4xl font-bold">Octopath</h1>
+            <h1 className="text-4xl font-bold">Alois Game</h1>
             <p className="max-w-3xl text-lg leading-relaxed mt-6">
-                We are affiliated with OctoPath, the AI-driven research lab led by Dr. Jana Lipkova at UCI, through her lab’s website at Jana Research. OctoPath bridges medical science and advanced computing, applying deep learning to multimodal clinical data — including histology, radiology, genomics, and patient history — to drive more objective diagnosis, prognosis, and biomarker discovery.
+                A Calit2 study and project with over $2000 of funding. Gamifying cognitive tasks such as identification of differences in images. A study (with prizes!) will be conducted to examine results.  
             </p>
         </div>
     );
 }
 
-function UCIDCPDescription() {
+function Simon() {
     return (
-        <div className="flex flex-col items-center text-center h-screen my-16 justify-center px-8 bg-sky-950">
-            <h1 className="text-4xl text-white font-bold">UCI's Division of Career Pathways</h1>
-            <p className="max-w-3xl text-lg text-white leading-relaxed mt-6">
-                We recently collaborated with UCI’s Division of Career Pathways (DCP) to host an interactive résumé workshop designed to support students preparing for internships and early-career opportunities. The event took place in DCP’s dedicated training room and was co-hosted with Women in Cyber Security (WiCyS), bringing together professional development resources and a supportive community focused on empowering students in technical fields.
+        <div className="flex flex-col items-center text-center h-screen my-16 justify-center px-8 bg-white">
+            <h1 className="text-4xl font-bold">PairedAssosiateTask</h1>
+            <p className="max-w-3xl text-lg leading-relaxed mt-6">
+                Testing cognitive abilities through determining differences between a pair of images. This project is in colloboration with Simon's Lab and is currently in development.
             </p>
         </div>
-    );
+    )
 }
 
 export default function Projects() {
     return (
         <div className="bg-white">
-            <StarkLabsDescription />
-            <SimonLabsDescription />
-            <OctopathDescription />
-            <UCIDCPDescription />
+            <SwitchItUp/>
+            <Alois/>
+            <Simon/>
         </div>
     );
 }

@@ -13,25 +13,37 @@ export default function Navbar() {
                         to="/"
                         className={`hover:text-blue-600 ${currentPath === '/' ? 'font-bold' : ''}`}
                     >
-                        Home
+                        <img
+                        src="/org_logo2.png"
+                        alt="Home"
+                        width = {25}
+                        height = {25}
+                        className="cursor-pointer mx-4"
+                        />
+                    </Link>
+                    <Link
+                        to="/partnerships"
+                        className={`hover:text-blue-600 ${currentPath === '/partnerships' ? 'font-bold' : ''}`}
+                    >
+                        Partnerships
                     </Link>
                     <Link
                         to="/projects"
                         className={`hover:text-blue-600 ${currentPath === '/projects' ? 'font-bold' : ''}`}
                     >
-                        Projects and Partnerships
-                    </Link>
-                    <Link
-                        to="/about"
-                        className={`hover:text-blue-600 ${currentPath === '/about' ? 'font-bold' : ''}`}
-                    >
-                        About
+                        Projects
                     </Link>
                     <Link
                         to="/contact"
                         className={`hover:text-blue-600 ${currentPath === '/contact' ? 'font-bold' : ''}`}
                     >
                         Contact Us
+                    </Link>
+                    <Link
+                        to="/about"
+                        className={`hover:text-blue-600 ${currentPath === '/about' ? 'font-bold' : ''}`}
+                    >
+                        About
                     </Link>
                 </div>
             </div>
