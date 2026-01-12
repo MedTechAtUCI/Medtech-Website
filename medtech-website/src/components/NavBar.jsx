@@ -6,7 +6,7 @@ export default function Navbar() {
 
 
     return (
-        <nav className="absolute top-0 w-full z-10">
+        <nav className="absolute top-0 w-full z-10 bg-white">
             <div className="flex justify-center items-center p-4 max-w-screen-2xl mx-auto">
                 <div className="flex space-x-6 text-xl" style={{ fontSize: "3vmin" }}>
                     <Link

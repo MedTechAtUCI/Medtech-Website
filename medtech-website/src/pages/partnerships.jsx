@@ -12,14 +12,22 @@ function StarkLabsDescription() {
 function SimonLabsDescription() {
     return (
         <div className="flex flex-col items-center text-center h-screen my-16 justify-center px-8 bg-sky-950">
-            <h1 className="text-4xl text-white font-bold">Simon Lab</h1>
-            <p className="max-w-3xl text-lg text-white leading-relaxed mt-6">
-                We are currently collaborating with the Simon Lab, a research group within the UCI School of Medicine led by Dr. Katherine Simon, a professor specializing in pediatric cognition, memory, and sleep. The Simon Lab focuses on understanding how memory develops in children and how sleep patterns influence learning and long-term recall.
-                <br /><br />
-                As part of our ongoing partnership, we are helping the lab develop a new memory-assessment feature for their app, HowRU. This feature presents children with pairs of images, where one image in the pair changes over time. Participants are asked to identify the differences, allowing researchers to measure attention, memory encoding, and recall in a natural, engaging way.
-                <br /><br />
-                Through this collaboration, we aim to support the Simon Lab’s mission to advance pediatric memory research and create tools that deepen our understanding of how children learn, adapt, and grow.
-            </p>
+           
+            <div className="flex flex-col md:flex-row gap-4 p-20 ">
+                <img src={`${process.env.PUBLIC_URL}/howruapp.png`} alt="Image of Brain with a Smile" className="h-60 w-65 rounded-lg self-center"/>
+                <div>
+                    <h1 className="text-5xl text-white font-bold">Simon Labs</h1>
+                    <p className=" max-w-3xl text-2xl text-white leading-relaxed mt-6">
+                    We are currently collaborating with the Simon Lab, a research group within the UCI School of Medicine led by Dr. Katherine Simon, a professor specializing in pediatric cognition, memory, and sleep. The Simon Lab focuses on understanding how memory develops in children and how sleep patterns influence learning and long-term recall. <br/><br/>
+As part of our ongoing partnership, we are helping the lab develop a new memory-assessment feature called PairedAssociateTask for their app, HowRU. This feature presents children with pairs of images, where one image in the pair changes over time. Participants are asked to identify the differences, allowing researchers to measure attention, memory encoding, and recall in a natural, engaging way.
+
+
+                    </p>
+                </div>
+                
+            </div>
+            
+            
         </div>
     );
 }
