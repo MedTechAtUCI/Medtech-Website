@@ -41,10 +41,16 @@ function Alois() {
 function Simon() {
     return (
         <div className="flex flex-col items-center text-center h-screen my-16 justify-center px-8 bg-white">
-            <h1 className="text-4xl font-bold">Paired Assosiate Task</h1>
-            <p className="max-w-3xl text-lg leading-relaxed mt-6">
-                Testing cognitive abilities through determining differences between a pair of images. This project is in colloboration with Simon's Lab and is currently in development.
-            </p>
+            <div className="flex flex-col md:flex-row gap-4 p-20">
+                <img src={`${process.env.PUBLIC_URL}/paired_associate_learning.png`} alt="Alois Logo" className="h-64 w-70 rounded-lg self-center"/>
+                <div>
+                    <h1 className="text-5xl font-bold">Paired Associate Task</h1>
+                    <p className="max-w-3xl text-2xl leading-relaxed mt-6">
+                    In this game, participants will given pairs of images to study. After studying, one image will appear and the participants needs to find the associated image. This task is designed to assess memory and learning capabilities. We are collaborating with the Simon Lab at UCI to integrate this feature into their HowRU app for cognitive assessment in children.
+                    </p>
+                </div>
+                
+            </div>
         </div>
     )
 }
