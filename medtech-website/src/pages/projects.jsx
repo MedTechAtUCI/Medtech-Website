@@ -58,9 +58,9 @@ function Simon() {
 export default function Projects() {
     return (
         <div className="bg-white">
-            <SwitchItUp/>
-            <Alois/>
             <Simon/>
+            <Alois/>
+            <SwitchItUp/>
         </div>
     );
 }
