@@ -62,9 +62,10 @@ function MissionSection() {
                   medical services worldwide, accelerating innovation in global healthcare delivery.
                 </p>
                 <p className="p-6 bg-blue-50/50 border-l-4 border-blue-500 rounded-r-2xl">
-                  <strong>Latest Update:</strong> We are currently developing the 
-                  <span className="text-blue-600"> Alois Machine-Memory Assisted Initiative</span>, 
-                  an AI-driven system leveraging gamification to monitor Alzheimer’s care.
+                    <strong>Latest Update:</strong> Our development team is currently building a 
+                    <span className="text-blue-600 font-bold"> Gamified Mnemonic Similarity Task (MST)</span>. 
+                    By digitizing traditional laboratory memory tests into an engaging game, we are creating 
+                    a scalable tool for early Alzheimer’s risk detection through hippocampal monitoring.
                 </p>
               </div>
             </div>

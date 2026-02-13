@@ -1,4 +1,5 @@
 import CenteredComponent from "../components/CenteredComponent";
+import { Link } from 'react-router-dom';
 
 // Sections
 import Companies from "../components/Companies";
@@ -38,12 +39,21 @@ function IntroductoryContent() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-8">
-                <button className="group px-8 py-4 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold transition-all shadow-lg shadow-blue-500/25 flex items-center gap-2 hover:-translate-y-1">
-                    Contact Us
-                </button>
-                <button className="px-8 py-4 rounded-xl border-2 border-neutral-100 bg-white hover:border-blue-100 hover:bg-blue-50/50 text-neutral-900 font-bold transition-all">
-                    Learn More
-                </button>
+            {/* Link to Contact Page */}
+            <Link 
+                to="/contact" 
+                className="group px-8 py-4 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold transition-all shadow-lg shadow-blue-500/25 flex items-center gap-2 hover:-translate-y-1"
+            >
+                Contact Us
+            </Link>
+
+            {/* Link to About Page */}
+            <Link 
+                to="/about" 
+                className="px-8 py-4 rounded-xl border-2 border-neutral-100 bg-white hover:border-blue-100 hover:bg-blue-50/50 text-neutral-900 font-bold transition-all text-center"
+            >
+                Learn More
+            </Link>
             </div>
         </div>
     );

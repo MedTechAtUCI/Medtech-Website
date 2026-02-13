@@ -2,16 +2,11 @@ import ScrollReveal from '../components/animations/ScrollReveal';
 
 const companies = [
   { name: 'AVEVA', text: 'AVEVA' },
-  { name: 'Capital One', text: 'CapitalOne' },
-  { name: 'Roblox', text: 'ROBLOX' },
+  { name: 'Badger Meter', text: 'Badger Meter' },
+  { name: 'ARISTA', text: 'ARISTA' },
   { name: 'Capital Group', text: 'Capital Group' },
-  { name: 'Google', text: 'Google' },
+  { name: 'BlackStone', text: 'BlackStone' },
   { name: 'Microsoft', text: 'Microsoft' },
-  { name: 'Amazon', text: 'Amazon' },
-  { name: 'Meta', text: 'Meta' },
-  { name: 'Apple', text: 'Apple' },
-  { name: 'Tesla', text: 'Tesla' },
-  { name: 'NVIDIA', text: 'NVIDIA' },
   { name: 'IBM', text: 'IBM' },
 ];
 
@@ -35,7 +30,7 @@ function Companies() {
             </h2>
             
             <p className="text-xl text-neutral-600 max-w-2xl mx-auto font-medium">
-              From Big Tech to innovative healthcare startups, our alumni are shaping the future of global industries.
+              From Big Tech to startups, our alumni are shaping the future of global industries.
             </p>
           </div>
         </ScrollReveal>
@@ -76,12 +71,14 @@ function Companies() {
         </div>
       </div>
 
-      <style>{`
+     <style>{`
         @keyframes scroll-left {
-          0% { transform: translateX(0); }
-          100% { transform: translateX(-50%); }
+          from { transform: translateX(0); }
+          to { transform: translateX(-50%); }
         }
         .animate-scroll-left {
+          display: flex;
+          width: max-content; /* Vital: Ensures the div is only as wide as its children */
           animation: scroll-left 40s linear infinite;
         }
         .animate-scroll-left:hover {

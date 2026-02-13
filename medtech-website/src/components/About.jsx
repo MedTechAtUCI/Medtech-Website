@@ -70,7 +70,7 @@ function About() {
             
             <div className="relative rounded-[2rem] overflow-hidden border border-blue-100 bg-white p-3 shadow-2xl shadow-blue-500/10">
               <img 
-                src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80"
+                src="/images/mini_aif.jpg"
                 alt="Medical technology innovation"
                 className="w-full h-[550px] object-cover rounded-[1.5rem]"
               />
@@ -78,7 +78,7 @@ function About() {
               {/* Overlay Badge for the Image */}
               <div className="absolute bottom-8 left-8 right-8 p-6 bg-white/80 backdrop-blur-xl border border-white/20 rounded-2xl shadow-xl">
                 <p className="text-sm font-bold text-neutral-900">
-                  "The future of medicine is built in the lab, not just the hospital."
+                  "Don't just study the breakthrough. Be the one who builds it."
                 </p>
               </div>
             </div>
