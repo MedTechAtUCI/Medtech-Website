@@ -40,19 +40,19 @@ export const teams = [
         name: "Socials Team",
         members: [
             {
-                name: "Ashley Yee",
-                role: "Website Lead",
-                imageUrl: "/images/team/ashley.jpg",
+                name: "Emma Chen",
+                role: "Social Media",
+                imageUrl: "/images/team/emma.jpg",
             },
         ]
     },
-    {
-        name: "Website Team",
+        {
+        name: "Stark Labs Team",
         members: [
             {
-                name: "Ashley Yee",
-                role: "Website Lead",
-                imageUrl: "/images/team/ashley.jpg",
+                name: "Siddharth Sundar",
+                role: "Cloud Solutions Lead",
+                imageUrl: "/images/team/siddharth.jpg",
             },
         ]
     },
