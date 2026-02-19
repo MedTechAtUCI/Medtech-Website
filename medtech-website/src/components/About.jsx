@@ -31,7 +31,7 @@ function About() {
                 </h2>
                 
                 <p className="text-xl pt-8 text-neutral-600 leading-relaxed font-medium max-w-xl">
-                We are a student-led organization passionate about exploring the intersection of medicine and technology. Through research projects, partnerships, and student initiatives we empower members to become leaders in medical innovation.
+                We are a student-led organization passionate about exploring the intersection of medicine and technology. We partner with UCI research labs to build real software for healthcare. Our members become leaders in medical innovation.
                 </p>
             </ScrollReveal>
             
@@ -78,7 +78,7 @@ function About() {
               {/* Overlay Badge for the Image */}
               <div className="absolute bottom-8 left-8 right-8 p-6 bg-white/80 backdrop-blur-xl border border-white/20 rounded-2xl shadow-xl">
                 <p className="text-sm font-bold text-neutral-900">
-                  "Don't just study the breakthrough. Be the one who builds it."
+                  "Don't just learn it, build it."
                 </p>
               </div>
             </div>

@@ -3,8 +3,8 @@ import { Building2, Microscope, Brain } from 'lucide-react';
 export const partnerships = [
   {
     name: 'Stark Lab',
-    fullName: 'Mnemonic Similarity Task (MST) for early Alzheimer’s detection',
-    description: "In collaboration with the Stark Lab, we are gamifying the Mnemonic Similarity Task (MST) to revolutionize early Alzheimer’s detection. By transforming traditional clinical assessments into engaging digital experiences, this partnership bridges the gap between hippocampal research and scalable health-tech solutions for cognitive monitoring.",
+    fullName: 'Mnemonic Similarity Task (MST) for early MCI detection',
+    description: "Directed by Dr. Craig Stark, Stark Labs specializes in the mechanisms of memory and mild cognitive impairment. Dr. Stark's is a faculty in the department of Neurobiology and behaviour, and his research has been featured on Mind Field by Vsauce.",
     icon: Brain,
     color: 'from-purple-500 to-purple-400',
     bgColor: 'bg-purple-50',
@@ -12,6 +12,18 @@ export const partnerships = [
     hoverBorder: 'hover:border-purple-400',
     textColor: 'text-purple-600',
     websiteUrl: 'https://faculty.sites.uci.edu/starklab/'
+  },
+  {
+    name: 'Simon Labs',
+    fullName: 'Neuroscience & Cognitive Research Center',
+    description: "Simon Lab is a research group within the UCI School of Medicine led by Dr. Katherine Simon, specializing in pediatric cognition, memory, and sleep. The Simon Lab focuses on understanding how memory develops in children and how sleep patterns influence learning and long-term recall. ",
+    icon: Brain,
+    color: 'from-cyan-500 to-cyan-400',
+    bgColor: 'bg-cyan-50',
+    borderColor: 'border-cyan-300',
+    hoverBorder: 'hover:border-cyan-400',
+    textColor: 'text-cyan-600',
+    websiteUrl: 'https://sleepinpediatrics.com/'
   },
   {
     name: 'OCTOPATH',
@@ -24,18 +36,6 @@ export const partnerships = [
     hoverBorder: 'hover:border-pink-400',
     textColor: 'text-pink-600',
     websiteUrl: 'https://jana-research.org/' 
-  },
-  {
-    name: 'Simon Labs',
-    fullName: 'Neuroscience & Cognitive Research Center',
-    description: "We are currently collaborating with the Simon Lab, a research group within the UCI School of Medicine led by Dr. Katherine Simon, a professor specializing in pediatric cognition, memory, and sleep. The Simon Lab focuses on understanding how memory develops in children and how sleep patterns influence learning and long-term recall. As part of our ongoing partnership, we are helping the lab develop a new memory-assessment feature called PairedAssociateTask for their app, HowRU. This feature presents children with pairs of images, where one image in the pair changes over time. Participants are asked to identify the differences, allowing researchers to measure attention, memory encoding, and recall in a natural, engaging way.",
-    icon: Brain,
-    color: 'from-cyan-500 to-cyan-400',
-    bgColor: 'bg-cyan-50',
-    borderColor: 'border-cyan-300',
-    hoverBorder: 'hover:border-cyan-400',
-    textColor: 'text-cyan-600',
-    websiteUrl: 'https://sleepinpediatrics.com/'
   },
   {
     name: 'UCI Career Pathways',

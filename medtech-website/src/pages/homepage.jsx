@@ -34,7 +34,7 @@ function IntroductoryContent() {
             {/* Tagline */}
             <p className="animate-fade-in-up [animation-delay:300ms] opacity-0 text-xl md:text-2xl text-neutral-600 max-w-3xl mx-auto leading-relaxed font-medium">
                 Empowering Lives Through Compassionate Medical Apps. <br className="hidden md:block" />
-                Dedicated to enhancing cognitive well-being and patient care.
+                Enhancing cognitive well-being and patient care.
             </p>
 
             {/* CTA Buttons */}
