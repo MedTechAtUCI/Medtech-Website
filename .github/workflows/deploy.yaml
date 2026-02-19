@@ -47,3 +47,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: medtech-website/build
           publish_branch: Website_Deployment
+          cname: antartiqcmed.org
