@@ -61,8 +61,7 @@ function IntroductoryContent() {
 
 function IntroductoryBanner() {
     return (
-        <div className="relative w-full h-screen flex items-center justify-center overflow-hidden bg-white">
-            {/* Background Aesthetic */}
+        <div className="relative w-full h-screen flex items-center justify-center overflow-hidden bg-white">            {/* Background Aesthetic */}
             <div className="absolute inset-0">
                 
                 {/* 1. INTENSE BOTTOM GRADIENT: Using a more vibrant blue with higher opacity */}
