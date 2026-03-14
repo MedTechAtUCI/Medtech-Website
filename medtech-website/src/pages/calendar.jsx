@@ -52,7 +52,7 @@ export default function EventsPage() {
             </div>
           </ScrollReveal>
 
-          {/* Featured Event - Large Hero Card */}
+          {/* Featured Event - Large Hero Card */}q
           <div className="mb-16">
             <ScrollReveal delay={100}>
               <div className="relative rounded-[2.5rem] border-2 border-blue-100 bg-white overflow-hidden shadow-2xl hover:shadow-blue-500/10 transition-all duration-500 group">
