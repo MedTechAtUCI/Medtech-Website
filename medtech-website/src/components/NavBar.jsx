@@ -41,6 +41,7 @@ export default function Navbar() {
                 <div className="hidden md:flex items-center gap-8">
                     <Link to="/partnerships" className={linkStyle('/partnerships')}>Partnerships</Link>
                     <Link to="/projects" className={linkStyle('/projects')}>Projects</Link>
+                    <Link to="/calendar" className={linkStyle('/calendar')}>Events</Link>
                     <Link to="/about" className={linkStyle('/about')}>About</Link>
                     <Link 
                         to="/contact" 
@@ -66,6 +67,7 @@ export default function Navbar() {
                     <div className="flex flex-col items-center justify-center h-full gap-8">
                         <Link to="/partnerships" className="text-2xl font-black tracking-tighter text-neutral-900">Partnerships</Link>
                         <Link to="/projects" className="text-2xl font-black tracking-tighter text-neutral-900">Projects</Link>
+                        <Link to="/calendar" className="text-2xl font-black tracking-tighter text-neutral-900">Events</Link>
                         <Link to="/about" className="text-2xl font-black tracking-tighter text-neutral-900">About</Link>
                         <Link 
                             to="/contact" 

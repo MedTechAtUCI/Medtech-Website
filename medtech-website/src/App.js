@@ -14,6 +14,7 @@ import DevTesting from "./pages/devTesting";
 import Contact from './pages/contact';
 import Partnerships from './pages/partnerships';
 import Projects from './pages/projects';
+import Calendar from './pages/calendar';
 
 
 
@@ -27,6 +28,7 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/testing" element={<DevTesting />} />
+                <Route path='/calendar' element={<Calendar/>}/>
                 <Route path='/contact' element ={<Contact/>}/>
                 <Route path='/partnerships' element = {<Partnerships/>}/>
                 <Route path='/projects' element = {<Projects/>}/>
